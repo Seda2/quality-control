@@ -8,7 +8,7 @@ import plotly.express as px
 # ---------------------------------------------------------------------
 st.set_page_config(page_title="DIEM Quality Control Dashboard", layout="wide")
 st.title("📊 DIEM-Monitoring - Global QC Dashboard Template")
-st.markdown("Replicates all mandatory and optional DIEM quality checks with exact SPSS precision.")
+st.markdown("Conducts all mandatory and optional DIEM quality checks (excludes country-specific questions).")
 
 DK_REF_VALS = [888, 999, '888', '999', 888.0, 999.0]
 
